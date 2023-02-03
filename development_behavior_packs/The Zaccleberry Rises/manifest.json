@@ -1,0 +1,30 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "The Zaccleberry Rises",
+		"description": "The Zaccleberry Rises Behavior Pack",
+		"uuid": "3e152f2c-f7ca-f3f6-d263-19fc65a9dcfe",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["VisoredHarbor39", "DoubtfulFiber37"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.6"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "75f6f0e9-d44b-1a93-c853-fbc1175ef7e0",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5fa50c7b-0254-ba09-4901-7d095e3f428d",
+			"version": [1, 0, 0]
+		}
+	]
+}

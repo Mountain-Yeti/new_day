@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "The Zaccleberry Rises",
+		"description": "The Zaccleberry Rises Resource Pack",
+		"uuid": "5fa50c7b-0254-ba09-4901-7d095e3f428d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["VisoredHarbor39", "DoubtfulFiber37"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.6"]
+		}
+	},
+	"modules": [
+		{
+			"description": "The Zaccleberry Rises",
+			"type": "resources",
+			"uuid": "1f21bbf2-b796-90f7-762d-5961e1cc45ba",
+			"version": [1, 0, 0]
+		}
+	]
+}
