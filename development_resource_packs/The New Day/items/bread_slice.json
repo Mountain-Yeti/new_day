@@ -1,0 +1,15 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "new_day:bread_slice",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": "bread_slice",
+			"minecraft:use_animation": "eat",
+			"minecraft:hover_text_color": "white",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

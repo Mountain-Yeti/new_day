@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "new_day:globe_ore_feature"
+		},
+		"count": 8, 
+		"replace_rules": [
+			{
+				
+				"places_block": "new_day:globe_ore",
+				"may_replace": ["minecraft:stone"]
+			},
+			{
+				
+				"places_block": "new_day:globe_ore",
+				"may_replace": ["minecraft:deepslate"]
+			}
+		]
+	}
+}

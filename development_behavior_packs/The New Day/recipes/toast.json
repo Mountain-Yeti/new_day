@@ -1,0 +1,14 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "new_day:furnace_bread_slice"
+      },
+  
+      
+      "tags": ["furnace", "campfire", "smoker"],
+      "input": "new_day:bread_slice",
+      "output": "new_day:toast"
+    }
+    
+  }

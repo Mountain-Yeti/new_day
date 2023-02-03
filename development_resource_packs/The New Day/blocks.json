@@ -1,0 +1,14 @@
+{
+	"globe_ore": {
+		"sound": "stone"
+	},
+	"lamp": {
+		"sound": "lantern"
+	},
+	"claimblock": {
+		"sound": "stone"
+	},
+	"lamp_stand": {
+		"sound": "lantern"
+	}
+}

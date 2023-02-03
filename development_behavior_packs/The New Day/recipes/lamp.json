@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "new_day:lamp"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        " X ",
+        " # ",
+        "PPP"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:stick"
+        },
+        "X": {
+          "item": "new_day:lamp_stand"
+        },
+        "P": {
+          "item": "minecraft:wooden_slabs"
+        }
+      },
+      "result": {
+        "item": "new_day:lamp"
+      }
+    }
+  }

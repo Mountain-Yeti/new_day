@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "The New Day",
+		"description": "The New Day Behavior Pack",
+		"uuid": "c82114eb-b27e-9aa1-67d6-7ca3efd7f22c",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Blubot", "Wicket Ground Workspace"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.1.0", "1.1.1", "1.1.2"],
+			"blockbench_entity_wizard": ["1.1.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "c769de1d-e464-cd2e-6496-38cc09a1c352",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "eba76ae8-a025-0968-6d0f-4b30453c8cc6",
+			"version": [1, 0, 0]
+		}
+	]
+}

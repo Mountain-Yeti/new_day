@@ -1,0 +1,15 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "new_day:rintaloop_milk",
+			"category": "Nature"
+		},
+		"components": {
+			"minecraft:icon": "rintaloop_milk",
+			"minecraft:use_animation": "drink",
+			"minecraft:hover_text_color": "white",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

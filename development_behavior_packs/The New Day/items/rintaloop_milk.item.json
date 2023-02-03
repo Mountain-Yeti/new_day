@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "new_day:rintaloop_milk"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:foil": false,
+			"minecraft:max_stack_size": 64,
+			"minecraft:use_duration": 32,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "good",
+				"can_always_eat": false,
+				"effects": [
+					{
+						"name": "fire_resistance",
+						"chance": 0.6,
+						"duration": 30,
+						"amplifier": 10
+					}
+					
+				]
+			}
+		}
+	}
+}

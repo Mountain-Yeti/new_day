@@ -1,0 +1,32 @@
+{
+    "format_version": "1.16.1",
+    "minecraft:item": {
+      "description": {
+        "identifier": "new_day:cocoa_powder"
+      },
+  
+      "components": {
+        "minecraft:use_duration": 32,
+        "minecraft:max_stack_size": 200,
+        "minecraft:icon": {
+          "texture": "new_day.cocoa_powder"
+        },
+        "minecraft:food": {
+          "saturation_modifier": "normal",
+          "effects" : [
+            {
+              "name": "fatal_poison",
+              "chance": 1.0,
+              "duration": 10,
+              "amplifier": 1
+            }
+      ],
+          "nutrition": 1
+          
+            }
+          
+        }
+      }      
+    } 
+  
+

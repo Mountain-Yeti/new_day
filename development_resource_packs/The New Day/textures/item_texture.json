@@ -1,0 +1,21 @@
+{
+	"resource_pack_name": "The New Day",
+	"texture_name": "atlas.items",
+	"texture_data": {
+        "bread_slice": {
+            "textures": "textures/items/bread_slice"
+        },
+        "rintaloop_milk": {
+			"textures": "textures/items/rintaloop_milk"
+		},
+        "toast": {
+            "textures": "textures/items/toast"
+        },
+        "cocoa_powder": {
+            "textures": "textures/items/cocoa_powder"
+        },
+        "globe_gem": {
+            "textures": "textures/items/globe_gem"
+        }
+    }
+}

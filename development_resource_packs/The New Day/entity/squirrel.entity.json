@@ -1,0 +1,45 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "new_day:squirrel",
+			"materials": {
+				"default": "fox"
+			},
+			"textures": {
+				"red": "textures/entity/squirrel/red",
+				"arctic": "textures/entity/squirrel/arctic"
+			},
+			"geometry": {
+				"default": "geometry.squirrel"
+			},
+			"animations": {
+				"walk": "animation.squirrel.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.squirrel.baby_transform",
+				"crouch": "animation.squirrel.crouch",
+				"sleep": "animation.squirrel.sleep",
+				"setup": "animation.squirrel.setup",
+				"sit": "animation.squirrel.sit",
+				"wiggle": "animation.squirrel.wiggle",
+				"stuck": "animation.squirrel.stuck",
+				"pounce": "animation.squirrel.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": ["controller.render.fox"],
+			"spawn_egg": {
+				"base_color": "#f0ac26",
+				"overlay_color": "#8b3405"
+			}
+		}
+	}
+}

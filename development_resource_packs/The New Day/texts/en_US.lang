@@ -1,0 +1,16 @@
+tile.new_day:claimblock.name=Claim Block
+entity.new_day:rintaloop.name=Rintaloop
+item.spawn_egg.entity.new_day:rintaloop.name=Spawn Rintaloop
+action.hint.exit.new_day:rintaloop=Tap sneak to dismount
+item.new_day:bread_slice.name=Bread Slice
+item.new_day:toast.name=Toast
+tile.new_day:lamp.name=Lamp
+entity.new_day:squirrel.name=Squirrel
+item.spawn_egg.entity.new_day:squirrel.name=Spawn Squirrel
+tile.minecraft:cobblestone.name=Bobblestone
+tile.minecraft:planks.name=Wood Chunk
+item.new_day:rintaloop_milk.name=Rintaloop Milk
+item.new_day:cocoa_powder.name=Cocoa Powder
+tile.new_day:lamp_stand.name=Lamp Stand
+tile.new_day:globe_ore.name=Globe Ore
+item.new_day:globe_gem.name=Globe Gem

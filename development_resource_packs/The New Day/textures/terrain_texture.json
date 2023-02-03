@@ -1,0 +1,17 @@
+{
+	"resource_pack_name": "new_day",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"globe_ore": {
+			"textures": "textures/blocks/globe_ore.png"
+		},
+		"lamp": {
+			"textures": "textures/blocks/lamp.png"
+		},
+		"claimblock": {
+			"textures": "textures/blocks/claimblock.png"
+		}
+	}
+}
