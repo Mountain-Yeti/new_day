@@ -1,5 +1,5 @@
 # New Day Minecraft Mod
-By Harbourkins
+By Wicket Ground Workspace
 
 ## It's awesome
 
