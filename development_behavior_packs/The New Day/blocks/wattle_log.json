@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "new_day:wattle_log",
 			"properties": {
-				"wiki:facing_direction": [0, 1, 2]
+				"new_day:facing_direction": [0, 1, 2]
 			}
 			
 		},
@@ -47,7 +47,7 @@
 			}
 		],
 		"components": {
-			"tag:wiki:wattle_log": {},
+			"tag:new_day:wattle_log": {},
 			"minecraft:creative_category": {
 				"category": "nature",
 				"group": "itemGroup.name.log"
@@ -75,13 +75,13 @@
 			
 		},
 		"events": {
-			"wiki:set_facing_direction": {
+			"new_day:set_facing_direction": {
 				"set_block_property": {
-					"wiki:facing_direction": "math.floor( query.block_face / 2.0 )"
+					"new_day:facing_direction": "math.floor( query.block_face / 2.0 )"
 				}
 			},
 			
-			"wiki:become_stripped_0": {
+			"new_day:become_stripped_0": {
 				"sequence": [
 					{
 						"run_command": {
@@ -102,7 +102,7 @@
 					
 				]
 			},
-			"wiki:become_stripped1": {
+			"new_day:become_stripped1": {
 				"sequence": [
 					{
 						"run_command": {
@@ -123,7 +123,7 @@
 					
 				]
 			},
-			"wiki:become_stripped2": {
+			"new_day:become_stripped2": {
 				"sequence": [
 					{
 						"run_command": {
