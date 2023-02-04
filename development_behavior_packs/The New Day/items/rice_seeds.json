@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+      "description": {
+        "identifier": "new_day:rice_seeds"
+      },
+  
+      "components": {
+        "minecraft:seed": {
+          "crop_result": "beetroot"
+        }
+      }
+    }
+  }

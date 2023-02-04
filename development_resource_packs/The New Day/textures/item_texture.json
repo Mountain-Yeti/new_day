@@ -16,6 +16,9 @@
         },
         "globe_gem": {
             "textures": "textures/items/globe_gem"
+        },
+        "rice_seeds": {
+            "textures": "textures/items/rice_seeds"
         }
     }
 }
