@@ -19,6 +19,9 @@
         },
         "rice_seeds": {
             "textures": "textures/items/rice_seeds"
-        }
+        },
+        "wattle_sapling_placer": {
+			"textures": "textures/blocks/sapling_wattle"
+		}
     }
 }
