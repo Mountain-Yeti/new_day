@@ -12,6 +12,18 @@
 		},
 		"claimblock": {
 			"textures": "textures/blocks/claimblock.png"
+		},
+		"stripped_wattle_log_top": {
+			"textures": "textures/blocks/stripped_wattle_log_top.png"
+		},
+		"stripped_wattle_log": {
+			"textures": "textures/blocks/stripped_wattle_log.png"
+		},
+		"wattle_log_top": {
+			"textures": "textures/blocks/log_wattle_top.png"
+		},
+		"wattle_log": {
+			"textures": "textures/blocks/log_wattle.png"
 		}
 	}
 }
