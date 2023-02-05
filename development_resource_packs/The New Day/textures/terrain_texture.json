@@ -13,10 +13,10 @@
 		"claimblock": {
 			"textures": "textures/blocks/claimblock.png"
 		},
-		"stripped_wattle_log_top": {
+		"wattle_stripped_log_top": {
 			"textures": "textures/blocks/stripped_wattle_log_top.png"
 		},
-		"stripped_wattle_log": {
+		"wattle_stripped_log": {
 			"textures": "textures/blocks/stripped_wattle_log.png"
 		},
 		"wattle_log_top": {
@@ -24,6 +24,12 @@
 		},
 		"wattle_log": {
 			"textures": "textures/blocks/log_wattle.png"
-		}
+		},
+		 "wattle_leaves" : {
+			"textures" : [
+			   "textures/blocks/leaves_wattle_opaque.png"
+			   
+			]
+		 }	
 	}
 }
