@@ -1,4 +1,7 @@
 {
+	"liquid_drum": {
+		"sound": "metal"
+	},
 	"globe_ore": {
 		"sound": "stone"
 	},

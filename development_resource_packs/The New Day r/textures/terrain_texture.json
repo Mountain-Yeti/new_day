@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"liquid_drum": {
+			"textures": ["textures/blocks/liquid_drum.png"]
+		},
 		"globe_ore": {
 			"textures": "textures/blocks/globe_ore.png"
 		},
@@ -25,23 +28,11 @@
 		"wattle_log": {
 			"textures": "textures/blocks/log_wattle.png"
 		},
-		 "wattle_leaves" : {
-			"textures" : [
-			   "textures/blocks/leaves_oak_carried.tga"
-			   
-			]
-		 },
-		 "wattle_sapling" : {
-			"textures" : [
-			   "textures/blocks/sapling_oak.png"
-			   
-			]
-		 },
-		 "liquid_drum" : {
-			"textures" : [
-			   "textures/blocks/liquid_drum.png"
-			   
-			]
-		 }
+		"wattle_leaves": {
+			"textures": ["textures/blocks/leaves_oak_carried.tga"]
+		},
+		"wattle_sapling": {
+			"textures": ["textures/blocks/sapling_oak.png"]
+		}
 	}
 }
