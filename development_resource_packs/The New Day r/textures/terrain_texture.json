@@ -27,9 +27,21 @@
 		},
 		 "wattle_leaves" : {
 			"textures" : [
-			   "textures/blocks/leaves_wattle_opaque.png"
+			   "textures/blocks/leaves_oak_carried.tga"
 			   
 			]
-		 }	
+		 },
+		 "wattle_sapling" : {
+			"textures" : [
+			   "textures/blocks/sapling_oak.png"
+			   
+			]
+		 },
+		 "liquid_drum" : {
+			"textures" : [
+			   "textures/blocks/liquid_drum.png"
+			   
+			]
+		 }
 	}
 }

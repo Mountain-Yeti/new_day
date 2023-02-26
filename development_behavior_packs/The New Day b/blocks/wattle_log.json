@@ -1,0 +1,149 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "new_day:wattle_log",
+			"properties": {
+				"new_day:facing_direction": [0, 1, 2]
+			}
+			
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('new_day:facing_direction') == 0",
+				
+				"components": {
+					"minecraft:rotation": [0, 0, 0],
+					"minecraft:on_interact": {
+						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+						"event": "new_day:become_stripped_0"
+						
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('new_day:facing_direction') == 1",
+				
+				"components": {
+					"minecraft:rotation": [90, 0, 0],
+					"minecraft:on_interact": {
+						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+						"event": "new_day:become_stripped1"
+						
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('new_day:facing_direction') == 2",
+				
+				"components": {
+					"minecraft:rotation": [0, 0, 90],
+					"minecraft:on_interact": {
+						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
+						"event": "new_day:become_stripped2"
+						
+					}
+				}
+			}
+		],
+		"components": {
+			"tag:new_day:wattle_log": {},
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wattle_log",
+					"render_method": "opaque"
+				},
+				"ends": {
+					"texture": "wattle_log_top",
+					"render_method": "opaque"
+				},
+				"up": "ends",
+				"down": "ends"
+				
+			},
+			"minecraft:loot": "loot_tables/blocks/wattle_log_block.json",
+			
+			"minecraft:destroy_time": 1.0,
+			"minecraft:unit_cube": {},
+			"minecraft:on_player_placing": {
+				"event": "new_day:set_facing_direction"
+			}
+			
+		},
+		"events": {
+			"new_day:set_facing_direction": {
+				"set_block_property": {
+					"new_day:facing_direction": "math.floor( query.block_face / 2.0 )"
+				}
+			},
+			
+			"new_day:become_stripped_0": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"setblock ~~~ new_day:wattle_stripped_log",
+								"playsound hit.wood @a ~~~"
+							]
+						}
+					},
+					
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "item"
+						}
+					}
+					
+				]
+			},
+			"new_day:become_stripped1": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"structure load wattle_stripped_log1 ~~~",
+								"playsound hit.wood @a ~~~"
+							]
+						}
+					},
+					
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "item"
+						}
+					}
+					
+				]
+			},
+			"new_day:become_stripped2": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"structure load wattle_stripped_log2 ~~~",
+								"playsound hit.wood @a ~~~"
+							]
+						}
+					},
+					
+					{
+						"damage": {
+							"type": "durability",
+							"amount": 1,
+							"target": "item"
+						}
+					}
+					
+				]
+			}
+		}
+	}
+}

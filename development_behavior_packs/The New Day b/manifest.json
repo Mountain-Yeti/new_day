@@ -4,7 +4,7 @@
 		"name": "The New Day",
 		"description": "The New Day Behavior Pack",
 		"uuid": "c82114eb-b27e-9aa1-67d6-7ca3efd7f22c",
-		"version": [1, 0, 0],
+		"version": [1, 0, 10],
 		"min_engine_version": [1, 16, 0]
 	},
 	"metadata": {
