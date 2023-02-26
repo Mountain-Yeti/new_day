@@ -1,0 +1,29 @@
+{
+	"globe_ore": {
+		"sound": "stone"
+	},
+	"lamp": {
+		"sound": "lantern"
+	},
+	"claimblock": {
+		"sound": "stone"
+	},
+	"lamp_stand": {
+		"sound": "lantern"
+	},
+	"new_day:wattle_leaves": {
+		"sound": "grass"
+	},
+	"new_day:wattle_log": {
+		"sound": "wood"
+	},
+	"new_day:wattle_stripped_log": {
+		"sound": "wood"
+	},
+	"new_day:wattle_sapling": {
+		"sound": "grass"
+	},
+	"new_day:liquid_drum": {
+		"sound": "metal"
+	}
+}
