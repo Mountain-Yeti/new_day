@@ -1,7 +1,7 @@
 tile.new_day:claimblock.name=Claim Block
 entity.new_day:rintaloop.name=Rintaloop
 item.spawn_egg.entity.new_day:rintaloop.name=Spawn Rintaloop
-action.hint.exit.new_day:rintaloop=Tap sneak to dismount
+action.hint.exit.new_day:rintaloop=Tap sneak to dismount and have fun
 item.new_day:bread_slice.name=Bread Slice
 item.new_day:toast.name=Toast
 tile.new_day:lamp.name=Lamp
