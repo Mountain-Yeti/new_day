@@ -1,4 +1,7 @@
 {
+	"fishbowl": {
+		"sound": "glass"
+	},
 	"liquid_drum": {
 		"sound": "metal"
 	},

@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"fishbowl": {
+			"textures": "textures/blocks/fishbowl.png"
+		},
 		"liquid_drum": {
 			"textures": ["textures/blocks/liquid_drum.png"]
 		},
