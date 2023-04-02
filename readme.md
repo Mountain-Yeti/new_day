@@ -1,6 +1,6 @@
 # New Day Minecraft Mod
-By Wicket Ground Workspace
+By Gorund Workspace
 
-## It's awesome
+## Dozens of files
 
-### Like corn
+### Like knobs of corn
