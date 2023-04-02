@@ -39,7 +39,7 @@
 				"slot": "slot.armor.head"
 			},
 			"minecraft:durability": {
-				"max_durability": 200
+				"max_durability": 10000
 			}
 		}
 	}

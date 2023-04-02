@@ -1,9 +1,9 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "The Armor of All",
-		"description": "Resource Pack",
-		"uuid": "eba76ae8-a025-0968-6d0f-4b303ffc8cc6", 
+		"name": "Structure",
+		"description": "The New Day Resource Pack",
+		"uuid": "eba76ae8-a025-0968-6d0f-4b3049fe8cc6",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
@@ -18,7 +18,7 @@
 		{
 			"description": "The New Day",
 			"type": "resources",
-			"uuid": "789f689c-e43a-48aa-8664-80669b43250d",
+			"uuid": "789f689c-e43a-48aa-8664-8062954325fd",
 			"version": [1, 0, 0]
 		}
 	]

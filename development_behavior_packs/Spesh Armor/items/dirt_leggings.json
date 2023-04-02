@@ -24,7 +24,7 @@
 				"slot": "armor_legs"
 			},
 			"minecraft:armor": {
-				"protection": 3
+				"protection": 0
 			},
 			"minecraft:repairable": {
 				"repair_items": [
@@ -40,7 +40,7 @@
 				"slot": "slot.armor.legs"
 			},
 			"minecraft:durability": {
-				"max_durability": 200
+				"max_durability": 10000
 			}
 		}
 	}

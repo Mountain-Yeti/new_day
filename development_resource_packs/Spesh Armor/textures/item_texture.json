@@ -4,6 +4,14 @@
 	"texture_data": {
         "dirt_chest": {
             "textures": "textures/items/dirt_chest"
+        },
+        "dirt_leggings": {
+            "textures": "textures/items/dirt_leggings"
+        },
+        "dirt_helmet": {
+            "textures": "textures/items/dirt_helmet"
         }
+
+    
     }
 }
