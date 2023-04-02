@@ -10,6 +10,9 @@
         },
         "dirt_helmet": {
             "textures": "textures/items/dirt_helmet"
+        },
+        "dirt_boots": {
+            "textures": "textures/items/dirt_boots"
         }
 
     
