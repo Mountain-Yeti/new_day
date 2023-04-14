@@ -1,0 +1,71 @@
+{
+	"format_version": "1.10.0",
+	"dirt_helmet": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "root",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "waist",
+				"parent": "root",
+				"pivot": [0, 12, 0]
+			},
+			{
+				"name": "body",
+				"parent": "waist",
+				"pivot": [0, 24, 0]
+			},
+			{
+				"name": "head",
+				"parent": "body",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4.8, 31, -4.8], "size": [9.6, 2, 9.6], "uv": [0, 0]},
+					{"origin": [-5, 29, -4.6], "size": [1.6, 2, 8], "uv": [10, 13]},
+					{"origin": [3, 29, -4.6], "size": [1.6, 2, 8], "uv": [0, 11]},
+					{"origin": [-1, 28, 3], "size": [2, 3, 2], "uv": [0, 0]}
+				]
+			}
+		]
+	},
+	"geometry.dirt_helmet": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "root",
+				"pivot": [0, -28, 0]
+			},
+			{
+				"name": "waist",
+				"parent": "root",
+				"pivot": [0, -16, 0]
+			},
+			{
+				"name": "body",
+				"parent": "waist",
+				"pivot": [0, -4, 0]
+			},
+			{
+				"name": "head",
+				"parent": "body",
+				"pivot": [0, -4, 0],
+				"cubes": [
+					{"origin": [-4.8, 3, -4.8], "size": [9.6, 2, 9.6], "uv": [0, 0]},
+					{"origin": [-5, 1, -4.6], "size": [1.6, 2, 8], "uv": [10, 13]},
+					{"origin": [3, 1, -4.6], "size": [1.6, 2, 8], "uv": [0, 11]},
+					{"origin": [-1, 0, 3], "size": [2, 3, 2], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

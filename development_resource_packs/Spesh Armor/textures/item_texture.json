@@ -13,6 +13,12 @@
         },
         "dirt_boots": {
             "textures": "textures/items/dirt_boots"
+        },
+        "dirt_pickaxe": {
+            "textures": "textures/items/dirt_pickaxe"
+        },
+        "dirt_sword": {
+            "textures": "textures/items/dirt_sword"
         }
 
     

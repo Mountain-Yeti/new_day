@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Demo Resource Pack",
+      "name": "Demo Resource Pack",
+      "uuid":"b794208b-5fca-4c71-82a6-76f5a8e1dfa6",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+     },
+    "modules": [
+      {
+        "description": "Demo Resource Pack",
+        "type": "resources",
+        "uuid": "36eab74f-32a1-4228-a41a-9522f82f0155",
+        "version": [1, 0, 0]
+      }
+    ]
+   }

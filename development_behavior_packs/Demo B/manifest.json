@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Demo Behavior Pack",
+      "name": "Demo Behavior Pack",
+      "uuid":"61d37ca1-531d-47a5-a8c8-ea31687beb93",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+    },
+    "modules":
+      [
+        {
+          "description": "My First Add-On!",
+            "type": "data",
+            "uuid": "ae727154-5dde-4b0b-92cf-460c1b934a8b",
+            "version": [1, 0, 0]
+        }
+      ],
+    "dependencies": [
+      {
+       "uuid":"b794208b-5fca-4c71-82a6-76f5a8e1dfa6",
+        "version":[1,0,0]
+      }
+   ]
+  }

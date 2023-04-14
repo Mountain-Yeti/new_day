@@ -14,7 +14,7 @@
 				"texture": "dirt_helmet"
 			},
 			"minecraft:display_name": {
-				"value": "Dirt Helmet"
+				"value": "Dimond Helmit"
 			},
 			"minecraft:max_stack_size": 1,
 			
@@ -23,7 +23,7 @@
 				"slot": "armor_head"
 			},
 			"minecraft:armor": {
-				"protection": 3
+				"protection": 0
 			},
 			"minecraft:repairable": {
 				"repair_items": [
@@ -40,7 +40,8 @@
 			},
 			"minecraft:durability": {
 				"max_durability": 10000
-			}
+			},
+			"minecraft:render_offsets": "helmets"
 		}
 	}
 }
