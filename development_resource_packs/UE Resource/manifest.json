@@ -1,0 +1,31 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "§l§6Add A Variety Of Emerald Items!\n\n§l§k§c::§b::§r§l§aBy GreenHCreepers§k§3::§a::",
+    "name": "§l§k§c::§b::§r§l§aUsefull Emerald§k§3::§a::",
+    "platform_locked": false,
+    "uuid": "b18af740-3bab-311f-9842-d09128ddca26",
+    "version": [
+      1,
+      1,
+      0
+    ]
+  },
+  "min_engine_version": [
+    0,
+    0,
+    0
+  ],
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "7de2aec0-73c0-44b3-7a4a-39d2586dd287",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ]
+}

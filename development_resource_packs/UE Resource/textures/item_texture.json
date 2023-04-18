@@ -1,0 +1,31 @@
+{
+  "texture_data": {
+    "emerald_sword": {
+      "textures": "textures/items/ue/emerald_sword"
+    },
+    "emerald_shovel": {
+      "textures": "textures/items/ue/emerald_shovel"
+    },
+    "emerald_axe": {
+      "textures": "textures/items/ue/emerald_axe"
+    },
+    "emerald_pickaxe": {
+      "textures": "textures/items/ue/emerald_pickaxe"
+    },
+    "emerald_hoe": {
+      "textures": "textures/items/ue/emerald_hoe"
+    },
+    "emerald_helmet": {
+      "textures": "textures/items/ue/emerald_helmet"
+    },
+    "emerald_chestplate": {
+      "textures": "textures/items/ue/emerald_chestplate"
+    },
+    "emerald_leggings": {
+      "textures": "textures/items/ue/emerald_leggings"
+    },
+    "emerald_boots": {
+      "textures": "textures/items/ue/emerald_boots"
+    }
+  }
+}

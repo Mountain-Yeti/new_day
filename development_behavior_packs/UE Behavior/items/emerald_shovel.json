@@ -1,0 +1,111 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "category": "equipment",
+      "identifier": "ue:emerald_shovel"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.shovel"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 3600,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 100,
+        "damage_chance": {
+          "min": 5,
+          "max": 10
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:emerald",
+              "ue:emerald_shovel"
+            ],
+            "repair_amount": 10
+          }
+        ]
+      },
+      "minecraft:mining_speed": 2.0,
+      "minecraft:damage": 6,
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "sword"
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": "minecraft:clay",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:concretepowder",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:dirt",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:sand",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:grass",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:grass_path",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:podzol",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:mycelium",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:farmland",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:gravel",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:soul_sand",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:soul_soil",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:snow",
+            "speed": 15
+          },
+          {
+            "block": "minecraft:snow_layer",
+            "speed": 15
+          }
+        ]
+      },
+      "minecraft:weapon": {},
+      "tag:minecraft:is_shovel": {},
+      "minecraft:icon": {
+        "texture": "emerald_shovel"
+      },
+      "minecraft:display_name": {
+        "value": "item.ue:emerald_shovel.name"
+      }
+    }
+  }
+}

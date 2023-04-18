@@ -1,0 +1,38 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "§l§6Add A Variety Of Emerald Items!\n\n§l§k§c::§b::§r§l§aBy GreenHCreepers§k§3::§a::",
+    "name": "§l§k§c::§b::§r§l§aUsefull Emerald§k§3::§a::",
+    "uuid": "37a32b4b-c616-4943-af11-43a72773735c",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      10,
+      0
+    ]
+  },
+  "min_engine_version": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    5
+  ],
+  "modules": [
+    {
+      "description": "§aInstagram GreenHCreepers",
+      "type": "data",
+      "uuid": "a993149a-5387-43e2-b55b-397bf6c82711",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}
