@@ -1,0 +1,32 @@
+{
+    "format_version":"1.17",
+    "minecraft:npc_dialogue":{
+        "scenes":[
+            {
+                "scene_tag":"gary_open",
+                "npc_name":"Gary",
+                "text":"Hey, I'm Gary",
+                "on_open_commands":[
+                    "/say Someone is chatting with Gary!"
+                ],
+                "on_close_commands":[
+                    "/give @p "
+                ],
+                "buttons":[
+                    {
+                        "name":"Take Gold?",
+                        "commands":[
+                            "/give @initiator gold_ingot"
+                        ]
+                    },
+                    {  
+                        "name":"Wish Luck",
+                        "commands":[
+                            "/say Good luck!"
+                        ] 
+                    }
+                ]
+            }
+        ]
+    }
+}

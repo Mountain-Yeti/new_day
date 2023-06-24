@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "ue:emerald_chestplate",
+      "identifier": "ue:dirt_chestplate",
       "category": "equipment"
     },
     "components": {
@@ -12,20 +12,20 @@
         "slot": "armor_torso"
       },
       "minecraft:armor": {
-        "protection": 9
+        "protection": 0
       },
       "minecraft:wearable": {
         "slot": "slot.armor.chest"
       },
       "minecraft:durability": {
-        "max_durability": 1561
+        "max_durability": 25000
       },
       "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
-              "ue:emerald_chestplate",
-              "minecraft:emerald"
+              "ue:dirt_chestplate",
+              "minecraft:dirt"
             ],
             "repair_amount": 1561
           }
@@ -35,11 +35,11 @@
         "parent": "itemGroup.name.chestplate"
       },
       "minecraft:icon": {
-        "texture": "emerald_chestplate"
+        "texture": "dirt_chestplate"
       },
       "minecraft:render_offsets": "chestplates",
       "minecraft:display_name": {
-        "value": "item.ue:emerald_chestplate.name"
+        "value": "item.ue:dirt_chestplate.name"
       }
     }
   }

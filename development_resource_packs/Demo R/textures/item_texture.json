@@ -1,9 +1,0 @@
-{
-	"resource_pack_name": "demo",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"gem": {
-			"textures": "textures/items/gem"
-		}
-	}
-}

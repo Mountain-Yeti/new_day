@@ -1,31 +1,31 @@
 {
   "texture_data": {
-    "emerald_sword": {
-      "textures": "textures/items/ue/emerald_sword"
+    "dirt_sword": {
+      "textures": "textures/items/ue/dirt_sword"
     },
-    "emerald_shovel": {
-      "textures": "textures/items/ue/emerald_shovel"
+    "dirt_shovel": {
+      "textures": "textures/items/ue/dirt_shovel"
     },
-    "emerald_axe": {
-      "textures": "textures/items/ue/emerald_axe"
+    "dirt_axe": {
+      "textures": "textures/items/ue/dirt_axe"
     },
-    "emerald_pickaxe": {
-      "textures": "textures/items/ue/emerald_pickaxe"
+    "dirt_pickaxe": {
+      "textures": "textures/items/ue/dirt_pickaxe"
     },
-    "emerald_hoe": {
-      "textures": "textures/items/ue/emerald_hoe"
+    "dirt_hoe": {
+      "textures": "textures/items/ue/dirt_hoe"
     },
-    "emerald_helmet": {
-      "textures": "textures/items/ue/emerald_helmet"
+    "dirt_helmet": {
+      "textures": "textures/items/ue/dirt_helmet"
     },
-    "emerald_chestplate": {
-      "textures": "textures/items/ue/emerald_chestplate"
+    "dirt_chestplate": {
+      "textures": "textures/items/ue/dirt_chestplate"
     },
-    "emerald_leggings": {
-      "textures": "textures/items/ue/emerald_leggings"
+    "dirt_leggings": {
+      "textures": "textures/items/ue/dirt_leggings"
     },
-    "emerald_boots": {
-      "textures": "textures/items/ue/emerald_boots"
+    "dirt_boots": {
+      "textures": "textures/items/ue/dirt_boots"
     }
   }
 }

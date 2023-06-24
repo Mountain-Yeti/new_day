@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "category": "equipment",
-      "identifier": "ue:emerald_axe"
+      "identifier": "ue:dirt_axe"
     },
     "components": {
       "minecraft:creative_category": {
@@ -23,8 +23,8 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:emerald",
-              "ue:emerald_axe"
+              "minecraft:dirt",
+              "ue:dirt_axe"
             ],
             "repair_amount": 10
           }
@@ -777,10 +777,10 @@
       "minecraft:weapon": {},
       "tag:minecraft:is_axe": {},
       "minecraft:icon": {
-        "texture": "emerald_axe"
+        "texture": "dirt_axe"
       },
       "minecraft:display_name": {
-        "value": "item.ue:emerald_axe.name"
+        "value": "item.ue:dirt_axe.name"
       }
     }
   }

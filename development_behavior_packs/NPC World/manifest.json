@@ -1,0 +1,20 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "By Gorund Workspace",
+    "name": "NPC World",
+    "uuid":"bd31d0ba-4452-4695-a2b2-2ba878e4c182",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules":
+    [
+      {
+        "description": "Do Not Illegally Copyright Gorund",
+          "type": "data",
+          "uuid": "2be8a9a9-32e0-484c-90e5-008fceb0c53a",
+          "version": [1, 0, 0]
+      }
+    ]
+ 
+}

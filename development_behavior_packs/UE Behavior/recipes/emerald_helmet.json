@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "ue:emerald_helmet"
+      "identifier": "ue:dirt_helmet"
     },
     "tags": [
       "crafting_table"
@@ -13,11 +13,11 @@
     ],
     "key": {
       "E": {
-        "item": "minecraft:emerald"
+        "item": "minecraft:dirt"
       }
     },
     "result": {
-      "item": "ue:emerald_helmet"
+      "item": "ue:dirt_helmet"
     }
   }
 }

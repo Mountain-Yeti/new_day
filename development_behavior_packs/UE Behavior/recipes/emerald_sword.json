@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "ue:emerald_sword"
+      "identifier": "ue:dirt_sword"
     },
     "tags": [
       "crafting_table"
@@ -17,11 +17,11 @@
         "item": "minecraft:stick"
       },
       "E": {
-        "item": "minecraft:emerald"
+        "item": "minecraft:dirt"
       }
     },
     "result": {
-      "item": "ue:emerald_sword"
+      "item": "ue:dirt_sword"
     }
   }
 }

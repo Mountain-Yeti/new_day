@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "category": "equipment",
-      "identifier": "ue:emerald_shovel"
+      "identifier": "ue:dirt_shovel"
     },
     "components": {
       "minecraft:creative_category": {
@@ -23,8 +23,8 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:emerald",
-              "ue:emerald_shovel"
+              "minecraft:dirt",
+              "ue:dirt_shovel"
             ],
             "repair_amount": 10
           }
@@ -101,10 +101,10 @@
       "minecraft:weapon": {},
       "tag:minecraft:is_shovel": {},
       "minecraft:icon": {
-        "texture": "emerald_shovel"
+        "texture": "dirt_shovel"
       },
       "minecraft:display_name": {
-        "value": "item.ue:emerald_shovel.name"
+        "value": "item.ue:dirt_shovel.name"
       }
     }
   }

@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "ue:emerald_leggings",
+      "identifier": "ue:dirt_leggings",
       "category": "equipment"
     },
     "components": {
@@ -12,14 +12,14 @@
         "slot": "armor_legs"
       },
       "minecraft:armor": {
-        "protection": 7
+        "protection": 0
       },
       "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
-              "ue:emerald_leggings",
-              "minecraft:emerald"
+              "ue:dirt_leggings",
+              "minecraft:dirt"
             ],
             "repair_amount": 1561
           }
@@ -29,17 +29,17 @@
         "slot": "slot.armor.legs"
       },
       "minecraft:durability": {
-        "max_durability": 1561
+        "max_durability": 25000
       },
       "minecraft:creative_category": {
         "parent": "itemGroup.name.leggings"
       },
       "minecraft:icon": {
-        "texture": "emerald_leggings"
+        "texture": "dirt_leggings"
       },
       "minecraft:render_offsets": "leggings",
       "minecraft:display_name": {
-        "value": "item.ue:emerald_leggings.name"
+        "value": "item.ue:dirt_leggings.name"
       }
     }
   }

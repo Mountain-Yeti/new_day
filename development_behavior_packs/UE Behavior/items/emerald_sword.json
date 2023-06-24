@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "category": "equipment",
-      "identifier": "ue:emerald_sword"
+      "identifier": "ue:dirt_sword"
     },
     "components": {
       "minecraft:creative_category": {
@@ -13,7 +13,7 @@
       "minecraft:use_duration": 3600,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
-        "max_durability": 100,
+        "max_durability": 25000,
         "damage_chance": {
           "min": 5,
           "max": 10
@@ -23,8 +23,8 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:emerald",
-              "ue:emerald_sword"
+              "minecraft:dirt",
+              "ue:dirt_sword"
             ],
             "repair_amount": 10
           }
@@ -53,10 +53,10 @@
       "minecraft:weapon": {},
       "tag:minecraft:is_sword": {},
       "minecraft:icon": {
-        "texture": "emerald_sword"
+        "texture": "dirt_sword"
       },
       "minecraft:display_name": {
-        "value": "item.ue:emerald_sword.name"
+        "value": "item.ue:dirt_sword.name"
       }
     }
   }

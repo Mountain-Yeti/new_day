@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "ue:emerald_hoe"
+      "identifier": "ue:dirt_hoe"
     },
     "tags": [
       "crafting_table"
@@ -17,11 +17,11 @@
         "item": "minecraft:stick"
       },
       "E": {
-        "item": "minecraft:emerald"
+        "item": "minecraft:dirt"
       }
     },
     "result": {
-      "item": "ue:emerald_hoe"
+      "item": "ue:dirt_hoe"
     }
   }
 }

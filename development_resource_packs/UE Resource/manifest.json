@@ -1,10 +1,10 @@
 {
   "format_version": 1,
   "header": {
-    "description": "§l§6Add A Variety Of Emerald Items!\n\n§l§k§c::§b::§r§l§aBy GreenHCreepers§k§3::§a::",
-    "name": "§l§k§c::§b::§r§l§aUsefull Emerald§k§3::§a::",
+    "description": "Test 101",
+    "name": "Test 101",
     "platform_locked": false,
-    "uuid": "b18af740-3bab-311f-9842-d09128ddca26",
+    "uuid": "b18af740-3bab-311f-9842-d0915ef61236",
     "version": [
       1,
       1,
@@ -18,9 +18,9 @@
   ],
   "modules": [
     {
-      "description": "",
+      "description": "Instagram GreenHCreepers\nSubscribe Me Pls",
       "type": "resources",
-      "uuid": "7de2aec0-73c0-44b3-7a4a-39d2586dd287",
+      "uuid": "7de2aec0-73c0-44b3-7a4a-39d27e687287",
       "version": [
         1,
         1,

@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "category": "equipment",
-      "identifier": "ue:emerald_pickaxe"
+      "identifier": "ue:dirt_pickaxe"
     },
     "components": {
       "minecraft:creative_category": {
@@ -23,7 +23,7 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:emerald"
+              "minecraft:dirt"
             ],
             "repair_amount": 10
           }
@@ -78,7 +78,7 @@
             "speed": 15
           },
           {
-            "block": "minecraft:emerald_ore",
+            "block": "minecraft:dirt_ore",
             "speed": 15
           },
           {
@@ -146,11 +146,11 @@
             "speed": 15
           },
           {
-            "block": "minecraft:emerald_block",
+            "block": "minecraft:dirt_block",
             "speed": 15
           },
           {
-            "block": "minecraft:block_of_emerald",
+            "block": "minecraft:block_of_dirt",
             "speed": 15
           },
           {
@@ -998,10 +998,10 @@
       "minecraft:weapon": {},
       "tag:minecraft:is_pickaxe": {},
       "minecraft:icon": {
-        "texture": "emerald_pickaxe"
+        "texture": "dirt_pickaxe"
       },
       "minecraft:display_name": {
-        "value": "item.ue:emerald_pickaxe.name"
+        "value": "item.ue:dirt_pickaxe.name"
       }
     }
   }

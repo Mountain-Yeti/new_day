@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "category": "equipment",
-      "identifier": "ue:emerald_hoe"
+      "identifier": "ue:dirt_hoe"
     },
     "components": {
       "minecraft:creative_category": {
@@ -23,8 +23,8 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:emerald",
-              "ue:emerald_hoe"
+              "minecraft:dirt",
+              "ue:dirt_hoe"
             ],
             "repair_amount": 10
           }
@@ -85,10 +85,10 @@
       "minecraft:weapon": {},
       "tag:minecraft:is_hoe": {},
       "minecraft:icon": {
-        "texture": "emerald_hoe"
+        "texture": "dirt_hoe"
       },
       "minecraft:display_name": {
-        "value": "item.ue:emerald_hoe.name"
+        "value": "item.ue:dirt_hoe.name"
       }
     }
   }

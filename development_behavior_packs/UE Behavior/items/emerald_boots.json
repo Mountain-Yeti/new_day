@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "ue:emerald_boots",
+      "identifier": "ue:dirt_boots",
       "category": "equipment"
     },
     "components": {
@@ -12,20 +12,20 @@
         "slot": "armor_feet"
       },
       "minecraft:armor": {
-        "protection": 4
+        "protection": 0
       },
       "minecraft:wearable": {
         "slot": "slot.armor.feet"
       },
       "minecraft:durability": {
-        "max_durability": 1561
+        "max_durability": 25000
       },
       "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
-              "ue:emerald_boots",
-              "minecraft:emerald"
+              "ue:dirt_boots",
+              "minecraft:dirt"
             ],
             "repair_amount": 1561
           }
@@ -35,11 +35,11 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:icon": {
-        "texture": "emerald_boots"
+        "texture": "dirt_boots"
       },
       "minecraft:render_offsets": "boots",
       "minecraft:display_name": {
-        "value": "item.ue:emerald_boots.name"
+        "value": "item.ue:dirt_boots.name"
       }
     }
   }

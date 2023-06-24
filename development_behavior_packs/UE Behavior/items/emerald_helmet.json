@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "ue:emerald_helmet",
+      "identifier": "ue:dirt_helmet",
       "category": "equipment"
     },
     "components": {
@@ -12,14 +12,14 @@
         "slot": "armor_head"
       },
       "minecraft:armor": {
-        "protection": 4
+        "protection": 0
       },
       "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
-              "minecraft:emerald",
-              "ue:emerald_helmet"
+              "minecraft:dirt",
+              "ue:dirt_helmet"
             ],
             "repair_amount": 1561
           }
@@ -29,17 +29,17 @@
         "slot": "slot.armor.head"
       },
       "minecraft:durability": {
-        "max_durability": 1561
+        "max_durability": 25000
       },
       "minecraft:creative_category": {
         "parent": "itemGroup.name.helmet"
       },
       "minecraft:icon": {
-        "texture": "emerald_helmet"
+        "texture": "dirt_helmet"
       },
       "minecraft:render_offsets": "helmets",
       "minecraft:display_name": {
-        "value": "item.ue:emerald_helmet.name"
+        "value": "item.ue:dirt_helmet.name"
       }
     }
   }
